@@ -1,0 +1,36 @@
+.header {
+  margin: 0;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  :first-child {
+    width: 32px;
+    height: 32px;
+  }
+  :last-child {
+    width: 200px;
+    height: 20px;
+    margin-top: 5px;
+  }
+}
+
+.navLink {
+  color: #fff;
+  text-align: center;
+  font-family: "WorkSans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+
+  &.active {
+    color: #a259ff;
+  }
+}
