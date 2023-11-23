@@ -1,4 +1,5 @@
 .header {
+  padding: 0 50px;
   margin: 0;
   width: 100vw;
   height: 100px;
@@ -20,17 +21,45 @@
     margin-top: 5px;
   }
 }
+.nav {
+  width: 700px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
 
-.navLink {
-  color: #fff;
   text-align: center;
-  font-family: "WorkSans";
+  font-family: "Work Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 140%; /* 22.4px */
+}
+.navLink {
+  padding: 0 20px;
+  white-space: nowrap;
+  color: #fff;
 
   &.active {
     color: #a259ff;
   }
+}
+.btn {
+  padding: 0 30px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+  background-color: #a259ff;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  color: #FFF;
 }

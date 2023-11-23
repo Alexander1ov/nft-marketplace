@@ -22,7 +22,7 @@ const Header: FC = () => {
           <img src={"logo/NFTMarketplace.svg"} alt="Logo" />
         </Link>
       </div>
-      <nav>
+      <nav className={style.nav}>
         {navigation.map(({ id, name, path }) => (
           <NavLink
             key={id}
@@ -34,6 +34,10 @@ const Header: FC = () => {
             {name}
           </NavLink>
         ))}
+        <button className={style.btn}>
+          <img src={"icon/User.svg"} alt="Logo" />
+          Sign Up
+        </button>
       </nav>
     </header>
   );

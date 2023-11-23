@@ -1,0 +1,53 @@
+.section {
+  padding: 80px 195px;
+  height: 704px;
+}
+.firstColum {
+  width: fit-content;
+  font-family: Work Sans;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.tagline {
+  h1 {
+    margin: 0;
+    width: 510px;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 1.1; /* 73.7px */
+  }
+  p {
+    margin: 0;
+    width: 510px;
+    height: 105px;
+    align-self: stretch;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6; /* 35.2px */
+  }
+}
+.statistic {
+  display: flex;
+  gap: 30px;
+  .info {
+    width: 150px;
+    height: 80px;
+    h4 {
+      margin: 0;
+      font-family: "Space Mono";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.4; /* 39.2px */
+      text-transform: capitalize;
+    }
+    span {
+      font-size: 23.99px;
+      font-weight: 400;
+      line-height: 1.6; /* 38.384px */
+      text-transform: capitalize;
+    }
+  }
+}
