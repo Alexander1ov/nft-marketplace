@@ -1,0 +1,33 @@
+.myBtn {
+  margin: 30px 0;
+  padding: 0px 50px;
+  height: 60px;
+  display: flex;
+  border: none;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background-color: #a259ff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 1700px) {
+  .myBtn {
+    height: 80px;
+
+    font-size: 26px;
+    font-weight: 500;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

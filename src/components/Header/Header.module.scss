@@ -1,0 +1,149 @@
+.header {
+  margin: 0;
+  padding: 0 50px;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  :first-child {
+    width: 32px;
+    height: 32px;
+  }
+  :last-child {
+    width: 200px;
+    height: 20px;
+    margin-top: 5px;
+  }
+}
+.nav {
+  width: 700px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+}
+.navLink {
+  padding: 0 20px;
+  white-space: nowrap;
+  color: #fff;
+
+  &.active {
+    color: #a259ff;
+  }
+}
+.btn {
+  padding: 0 30px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+  background-color: #a259ff;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  color: #fff;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 1700px) {
+  .header {
+    padding: 0 50px;
+    margin: 0;
+  }
+  .logoImg {
+    :first-child {
+      width: 48px;
+      height: 48px;
+    }
+    :last-child {
+      width: 300px;
+      height: 30px;
+      margin-top: 8px;
+    }
+  }
+  .nav {
+    width: fit-content;
+    font-size: 25px;
+  }
+
+  .btn {
+    width: 170px;
+    font-size: 20px;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+@media (min-width: 2100px) {
+  .header {
+    padding: 0 50px;
+    margin: 0;
+  }
+  .logoImg {
+    :first-child {
+      width: 58px;
+      height: 58px;
+    }
+    :last-child {
+      width: 350px;
+      height: 35px;
+      margin-top: 10px;
+    }
+  }
+  .nav {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1240px) {
+  .header {
+    margin: 0;
+    padding: 0 40px;
+    height: 80px;
+  }
+  .logoImg {
+    :first-child {
+      width: 28px;
+      height: 28px;
+    }
+    :last-child {
+      width: 180px;
+      height: 18px;
+      margin-top: 4px;
+    }
+  }
+  .nav {
+    .navLink {
+      padding: 0 10px;
+    }
+  }
+  .btn {
+    width: 140px;
+    height: 50px;
+    gap: 8px;
+
+    font-size: 14px;
+  }
+}
