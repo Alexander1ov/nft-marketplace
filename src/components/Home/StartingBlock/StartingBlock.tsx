@@ -1,5 +1,4 @@
 import { FC } from "react";
-
 import style from "./StartingBlock.module.scss";
 import MyButton from "../../UI/MyButton/MyButton";
 
@@ -30,10 +29,19 @@ const StartingBlock: FC = () => {
         </div>
       </div>
       <div className={style.secondColum}>
-        <div className={style.wrapperImg}>
-          <figure></figure>
-          <figcaption></figcaption>
-        </div>
+        <figure>
+          <img
+            src="./homePage/Image Placeholder@2x.jpg"
+            alt="Image Placeholder@2x.jpg"
+            srcSet="./homePage/Image Placeholder.jpg 1x"
+          />
+        </figure>
+        <figcaption>
+          <div>Space Walking</div>
+          <div>
+            <img src="./icon/Avatar.svg" alt="" /> Animakid
+          </div>
+        </figcaption>
       </div>
     </section>
   );

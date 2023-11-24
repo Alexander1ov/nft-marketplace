@@ -14,4 +14,20 @@
   font-style: normal;
   font-weight: 600;
   color: #fff;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 1700px) {
+  .myBtn {
+    height: 80px;
+
+    font-size: 26px;
+    font-weight: 500;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
 }

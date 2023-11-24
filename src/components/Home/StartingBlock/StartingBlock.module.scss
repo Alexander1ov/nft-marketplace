@@ -1,26 +1,28 @@
 .section {
-  padding: 80px 195px;
+  padding: 80px 120px;
+  width: 100%;
   height: 704px;
-}
-.firstColum {
-  width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   font-family: Work Sans;
   font-style: normal;
-  text-transform: capitalize;
   color: #fff;
 }
-
+.firstColum {
+  width: 50%;
+  text-transform: capitalize;
+}
 .tagline {
+  width: 510px;
   h1 {
     margin: 0;
-    width: 510px;
     font-size: 67px;
     font-weight: 600;
     line-height: 1.1; /* 73.7px */
   }
   p {
     margin: 0;
-    width: 510px;
     height: 105px;
     align-self: stretch;
     font-size: 22px;
@@ -48,6 +50,100 @@
       font-weight: 400;
       line-height: 1.6; /* 38.384px */
       text-transform: capitalize;
+    }
+  }
+}
+.secondColum {
+  width: 510px;
+  height: 510px;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  figure {
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    img {
+      width: 510px;
+      height: 401px;
+    }
+  }
+  figcaption {
+    padding: 20px;
+    height: 109px;
+    div:first-child {
+      margin-bottom: 10px;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.4; /* 30.8px */
+      text-transform: capitalize;
+    }
+    :last-child {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.4; /* 22.4px */
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+@media (min-width: 1700px) {
+  .section {
+    height: fit-content;
+  }
+
+  .tagline {
+    width: 610px;
+    h1 {
+      font-size: 90px;
+    }
+    p {
+      margin: 0;
+      height: fit-content;
+      font-size: 30px;
+    }
+  }
+  .statistic {
+    width: 610px;
+    display: flex;
+    gap: 30px;
+    .info {
+      width: 33%;
+      height: fit-content;
+      h4 {
+        font-size: 40px;
+      }
+      span {
+        font-size: 33.99px;
+      }
+    }
+  }
+  .secondColum {
+    width: 610px;
+    height: 610px;
+    figure {
+      img {
+        width: 610px;
+        height: 480px;
+      }
+    }
+    figcaption {
+      padding: 20px;
+      height: fit-content;
+      div:first-child {
+        font-size: 35px;
+      }
+      :last-child {
+        font-size: 25px;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
     }
   }
 }
