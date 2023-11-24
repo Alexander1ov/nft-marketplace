@@ -147,3 +147,29 @@
     }
   }
 }
+@media (min-width: 2100px) {
+  .firstColum {
+    width: 40%;
+  }
+  .tagline {
+    width: 732px;
+    h1 {
+      font-size: 108px;
+    }
+    p {
+      margin: 20px 0;
+      height: fit-content;
+      font-size: 36px;
+    }
+  }
+  .secondColum {
+    width: 915px;
+    height: 915px;
+    figure {
+      img {
+        width: 915px;
+        height: 720px;
+      }
+    }
+  }
+}
